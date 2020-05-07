@@ -1,14 +1,18 @@
 # Figure Eight Disaster Response Pipeline 
 
 ## Context
-Partnering with Udacity, Figure Eight provides us with data sets containing real messages that were sent during disaster events. In this project, you will find an ETL pipeline that processes these data and a machine learning pipeline to categorize these events so that messages can be sent to an appropriate disaster relief agency. 
+Partnering with Udacity, Figure Eight provides us with data sets containing real messages that were sent during disaster events. In this project, you will find an ETL pipeline that processes these data and a machine learning pipeline to categorize these events so that messages can be sent to an appropriate disaster relief agency.  
 
+When it comes to using text in a machine learning model, one of the main challenges is how to represent texts as numerical inputs so that we can feed them into the model. This project experiments with two methodologies to represent text messages, which are TF-IDF and Doc2Vec embedding models.
 ## Folder structure
 ```
 ├── README.md           <- The top-level README for developers using this project.
+├── data                <- The original, immutable data dump.
+│   ├── categories.csv
+│   └── messages.csv
 ├── main.py             <- The main script to execute for both ETL and ML pipelines in this project.
-└── src                 <- Source code for use in this project.
-    ├── data            <- Scripts to process data and then validate this process.
+└── src                 <- Scripts to process data and then validate this process.
+    ├── data
     │   ├── process_data.py
     │   └── processed_data_validation.py
     └── models          <- Scripts to train classifiers and create utility functions and custom
