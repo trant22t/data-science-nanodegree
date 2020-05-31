@@ -1,4 +1,4 @@
-# Starbucks Optimization Strategy: Uplift Modeling 
+# Uplift Modeling 
  
 ## Background
 The data for this exercise consists of about 120,000 data points split in a 2:1 ratio among training and test files. 
@@ -17,7 +17,7 @@ IRR depicts how many more customers purchased the product with the promotion, as
 promotion. Mathematically, it's the ratio of the number of purchasers in the promotion group to the total number of 
 customers in the purchasers group (_treatment_) minus the ratio of the number of purchasers in the non-promotional group 
 to the total number of customers in the non-promotional group (_control_).    
-$$ IRR = \frac{purch_{treat}}{cust_{treat}} - \frac{purch_{ctrl}}{cust_{ctrl}} $$
+IRR = $\frac{purch_{treat}}{cust_{treat}}$ - $\frac{purch_{ctrl}}{cust_{ctrl}}$
 
 - **Net Incremental Revenue (NIR)**:  
 NIR depicts how much is made (or lost) by sending out the promotion. Mathematically, this is 10 times the total number 
@@ -28,16 +28,16 @@ $$ NIR = (10\cdot purch_{treat} - 0.15 \cdot cust_{treat}) - 10 \cdot purch_{ctr
 For a full description of what Starbucks provides to candidates see the [instructions available here](https://drive.google.com/open?id=18klca9Sef1Rs6q8DW4l7o349r8B70qXM).
 
 ## Approaches
-- Two-model approach: This approach consists building two seperate models for treatment and control groups. 
-These models tell us the likehood of a customer to purchase when they receive the promotion offers and when they don't, 
+- **Two-model approach**: This approach consists building two seperate models for treatment and control groups. 
+These models tell us the likelihood of a customer to purchase when they receive the promotion offers and when they don't, 
 respectively. After these two classifiers are constructed, we score all customers using both models. Thus, each customer 
 now has two probabilities and the difference between these two is the uplift score.   
-- Class transformation approach: This approach includes creating a new target variable which corresponds to the 
+- **Class transformation approach**: This approach includes creating a new target variable which corresponds to the 
 group of customers who will buy if receive promotions. Specifically, the new response variable is equal to one if the 
 customer belongs to the treatment group and they do purchase. In all other cases, the target takes on value zero. 
 Our problem could then be solved with a standard binary classification model. We'll want to send promotions to customers 
 whose target is one in this case.  
-- Treatment indicator variable approach: In order to incorporate the information of whether one receives promotion or 
+- **Treatment indicator variable approach**: In order to incorporate the information of whether one receives promotion or 
 not while building one single model, we use the treatment column itself as a predictor in our classifier in addition 
 to other features. Then, to predict whether a new individual is likely to respond favorably to the promotions, we set this 
 treatment dummy indicator to be both 0 and 1. Specifically, for each unseen customer, we apply the trained model on the 
