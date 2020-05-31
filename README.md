@@ -11,9 +11,9 @@ these messages so that they can be sent to an appropriate disaster relief agency
     *Major themes*: ELT pipeline, ML pipeline (bonus: `great_expectations` data validation)
      
 3. [Starbucks Optimization Strategy](starbucks_optimization_strategy): This folder consists two independent pieces of 
-work related to Starbucks optimization strategies for promotional offers: one is uplift modeling to determine whether a 
-promotion should be provided to a user based on Incremental Response Rate and Net Incremental Revenue; another is 
-customer segmentation modeling to determine which demographic groups respond best to which offer types.  
+work related to Starbucks optimization strategies for promotional offers: one provides multiple uplift models to determine 
+whether a user should be given a promotion based on Incremental Response Rate and Net Incremental Revenue; the other builds 
+a customer segmentation model to determine which demographic groups respond best to which offer types.  
   
     *Major themes*: uplift modeling, customer segmentation
     
