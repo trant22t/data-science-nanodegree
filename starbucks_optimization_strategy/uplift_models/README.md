@@ -52,6 +52,8 @@ these two probabilities is the lift value for the particular customer. In this e
 those whose lift value is positive. 
 
 ## Conclusion
+<center>
+
 | MODEL                                  | IRR    | NIR      |
 |----------------------------------------|--------|----------|
 | Current assignment (treatment column)  | 0.0096 | -1132.20 |
@@ -59,6 +61,8 @@ those whose lift value is positive.
 | Two-model approach                     | 0.0091 | -496.15  |
 | Class transformation approach          | 0.0198 | 416.20   |
 | Treatment indicator approach           | 0.0124 | -444.54  |
+
+</center>
 
 Based on the result on the test set, class transformation is the best approach which is able to outperform the 
 Starbucks benchmark. Furthermore, the model achieves this performance while using only two out of the originally 
