@@ -16,13 +16,15 @@ provided to a user. Specifically, our goal is to maximize the following metrics:
 IRR depicts how many more customers purchased the product with the promotion, as compared to if they didn't receive the 
 promotion. Mathematically, it's the ratio of the number of purchasers in the promotion group to the total number of 
 customers in the purchasers group (_treatment_) minus the ratio of the number of purchasers in the non-promotional group 
-to the total number of customers in the non-promotional group (_control_).    
-IRR = $\frac{purch_{treat}}{cust_{treat}}$ - $\frac{purch_{ctrl}}{cust_{ctrl}}$
+to the total number of customers in the non-promotional group (_control_).  
+    
+$$IRR = \frac{purch_{treat}}{cust_{treat}} - \frac{purch_{ctrl}}{cust_{ctrl}}$$
 
 - **Net Incremental Revenue (NIR)**:  
 NIR depicts how much is made (or lost) by sending out the promotion. Mathematically, this is 10 times the total number 
 of purchasers that received the promotion minus 0.15 times the number of promotions sent out, minus 10 times the number 
-of purchasers who were not given the promotion.  
+of purchasers who were not given the promotion. 
+ 
 $$ NIR = (10\cdot purch_{treat} - 0.15 \cdot cust_{treat}) - 10 \cdot purch_{ctrl}$$
 
 For a full description of what Starbucks provides to candidates see the [instructions available here](https://drive.google.com/open?id=18klca9Sef1Rs6q8DW4l7o349r8B70qXM).
