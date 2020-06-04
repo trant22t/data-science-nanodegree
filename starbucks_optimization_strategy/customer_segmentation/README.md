@@ -69,4 +69,16 @@ Here is the schema and explanation of each variable in the files:
         - value - (dict of strings) - either an offer id or transaction amount depending on the record  
 
 ## Conclusion
-
+After building a k-means clustering model, we are able to identify three main customer segments:
+- **The Big Spenders**: They actively engage with BOGO offers and seem to be the most valuable group to Starbucks since they 
+spend the highest amount of money and make a good number of transactions. Their gender ratio between male and female is 
+almost 1:1. Mean age of these spenders are 56 years old and they earn about 70K/year averagely.  
+- **The Discount Lovers**: They are highly responsive to discount offers and tend to make the most number of purchases 
+compared with the other two groups. They also spend a decent amount of money on Starbucks over time, despite not being 
+the highest. They have a fair distribution of males and females. The average age of customers in the group is 54 and 
+average income is about 65K/year.  
+- **The Lurkers**: Although they do not participate much in BOGO and discount offers' activities, they tend to keep up-to-date 
+with informational messages. However, this group doesn't significantly contribute to Starbucks' revenue since they make 
+the fewest number of transactions, spend the least amount of money, and take the longest time between purchases compared 
+with the rest. The group is composed of 70% males. Average age of customers in this segment is 51 and average income is 
+about 57K/year.
