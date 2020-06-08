@@ -20,7 +20,7 @@ a customer segmentation model to determine which demographic groups respond best
 4. [IBM Watson Article Recommendation Engine](ibm_articles_recommendation_engine): This project includes a recommendation 
 engine to suggest articles to the users on the IBM Watson Studio platform. 
 
-    * Major themes*: rank-based recommendations, user-user based collaborative filtering, content-based recommendations, 
+    *Major themes*: rank-based recommendations, user-user based collaborative filtering, content-based recommendations, 
     matrix factorization
 
 
