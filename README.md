@@ -17,7 +17,12 @@ a customer segmentation model to determine which demographic groups respond best
   
     *Major themes*: uplift modeling, customer segmentation
     
-4. IBM Watson Article Recommendation Engine: more to come
+4. [IBM Watson Article Recommendation Engine](ibm_articles_recommendation_engine): This project includes a recommendation 
+engine to suggest articles to the users on the IBM Watson Studio platform. 
+
+    * Major themes*: rank-based recommendations, user-user based collaborative filtering, content-based recommendations, 
+    matrix factorization
+
 
 5. [Dog Image Classification Tool](dog_breed_classifier): In this project, we will learn how to build a pipeline that can 
 be used within a web or mobile app to process real-world, user-supplied images.  Given an image of a dog, our algorithm 
