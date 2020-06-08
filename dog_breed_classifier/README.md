@@ -14,8 +14,6 @@ Our imperfect solution will nonetheless create a fun user experience!
 
 ## Project Instructions
 
-### Instructions
-
 1. Clone the repository and navigate to the downloaded folder.
 
 2. Download the [dog dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip). 
