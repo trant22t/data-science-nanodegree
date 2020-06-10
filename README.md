@@ -27,6 +27,6 @@ engine to suggest articles to the users on the IBM Watson Studio platform.
 5. [Dog Image Classification Tool](dog_breed_classifier): In this project, we will learn how to build a pipeline that can 
 be used within a web or mobile app to process real-world, user-supplied images.  Given an image of a dog, our algorithm 
 will identify an estimate of the canine’s breed.  If supplied an image of a human, the code will identify the resembling 
-dog breed. (Note: this one is a guided project from Udacity, whereas the rest are fully completed by me.)
+dog breed. 
 
     *Major themes*: image classification
