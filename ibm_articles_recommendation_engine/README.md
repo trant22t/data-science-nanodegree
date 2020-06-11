@@ -10,9 +10,11 @@ interaction values.
 ```
 ├── README.md                       <- The top-level README for developers using this project.
 ├── data
-│   ├── articles_community.csv      <- Raw dataset that contains articles' info (description, title, body content).
+│   ├── articles_community.csv      <- Raw dataset that contains articles' info 
+│   │                                  (description, title, body content).
 │   └── user-item-interactions.csv  <- Raw dataset that contains user-item info.
-└── main.ipynb                      <- The main notebook to execute for different recommended methods in this project.
+└── main.ipynb                      <- The main notebook to execute for different recommended 
+                                       methods in this project.
 
 ```
 
